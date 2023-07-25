@@ -1,0 +1,304 @@
+@media (min-width: 80em){
+/*Fondos*/
+    .Fondo{
+        justify-content: center;
+        text-align: center;
+        height: 80%;
+        width: 60%;
+        display: grid;
+        background-position: 50% 50%;
+        background-size: cover;
+        font-family: Text1;
+        background-repeat: no-repeat;
+        margin-left: 20%;
+        border-top: 0.125rem solid #000;
+    }
+    .Steve{
+        justify-content: left;
+        background-repeat: no-repeat;
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+
+    /*Header1*/
+    .header1{
+        background-color: black;
+        color:green;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1em;
+        border-bottom: 0.063rem solid green;
+    }
+    /*Header*/
+    header{
+        border-bottom: 0.188rem solid green; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /*Footer*/
+    footer{
+        color: white;
+        font-family: 'Mulish', sans-serif;
+        border-top: 30.188rem solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #373737;
+        position: relative;
+    }
+
+    /*Otros*/
+    .Button{
+        background: #265f85;
+        box-shadow: inset 0 0.25rem #4996c3,inset 0 -0.25rem #1c2963,0 0.25rem rgba(0, 0, 0, 0.25);
+        text-shadow: 0 0.063rem 0 #271c63;
+        margin-top: 8.75rem;
+        margin-left: 5.625rem;
+        text-align: center;
+        width: 40%;
+        justify-content: center;
+        display: grid;
+        position: absolute;
+        left:25%;
+        color: white;
+    }
+    .Iniciarsesion{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(10, 194, 10);
+    }
+    .Center{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .Grid{
+        display: grid;
+        grid-template-columns: repeat(8, 4fr);
+        grid-template-rows: repeat(8, 5vw);
+        grid-gap: 0.938rem;
+        justify-content: center;
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    .Logo1{
+        width: 20%;
+        height: 20%;
+        justify-content: center;
+    }
+    .input{
+        outline: none;
+        width: 25%;
+        border: none;
+        -moz-appearance: textfield;
+            appearance: textfield;
+        text-align: center;
+
+    }
+    .is2{
+        background-color: rgb(22, 22, 22);
+        width: 40%;
+        text-align: center;
+        margin-left: 30%;
+        border-bottom: 0.125rem solid green;
+    }
+    span{
+        background: #268543;
+        box-shadow: inset 0 0.25rem #49c35d,inset 0 -0.25rem #1c633c,0 0.25rem rgba(0, 0, 0, 0.25);
+        margin-top: 8.75rem;
+        margin-left: 5.625rem;
+        text-align: center;
+        width: 40%;
+        justify-content: center;
+        display: grid;
+        position: absolute;
+        left:25%
+    }
+    .Left{
+        text-align: left;
+        font-family: Text1;
+    }
+    .Center2{
+        text-align: center;
+        font-family: Text1;
+    }
+    .Center3{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 10%;
+    }
+    .Creeper{
+        padding-top: 2%;
+        width: 30%;
+        height: 90%;
+    }
+    .Block{
+        Display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.2em;
+        color:white;
+    }
+    .Imageness{
+        flex: 65%;
+        max-width: 65%;
+        padding: 0 4px;
+        padding-left: 35%;
+    }
+    .Imageness img{
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        flex: 50%;
+        max-width: 50%;
+        position: center;
+        
+    }
+}
+
+/*-------------*/
+body{
+    margin:0; 
+    text-decoration: none;
+    background-color: #000;
+}
+a{
+    text-decoration: none;
+    }
+p{
+    text-shadow: -0.063rem -0.063rem 0 #00000048, 0.063rem -0.063rem 0 #00000048, -0.063rem 0.063rem 0 #00000048, 0.063rem 0.063rem 0 #000;
+}
+@font-face {
+    font-family: Text1 ;
+    src: url(font/8-BIT\ WONDER.TTF);
+}
+
+/* -------- */
+@media (max-width:80em){
+    .Fondo{
+        justify-content: center;
+        text-align: center;
+        height: 80%;
+        width: 60%;
+        display: grid;
+        background-position: 50% 50%;
+        background-size: cover;
+        font-family: Text1;
+        background-repeat: no-repeat;
+        margin-left: 20%;
+        border-top: 0.125rem solid #000;
+    }
+    /*Header1*/
+    .header1{
+        background-color: black;
+        color:green;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.2em;
+        border-bottom: 0.13rem solid rgb(128, 0, 90);
+        text-decoration: none;
+    }
+    header{
+        border-bottom: 0.188rem solid green; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /*Footer*/
+    footer{
+        color: white;
+        font-family: 'Mulish', sans-serif;
+        border-top: 30.188rem solid black;
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #373737;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }    
+    body{
+        text-decoration: none;
+    }
+    .Button{
+        background: #852675;
+        box-shadow: inset 0 0.25rem #c349b9,inset 0 -0.25rem #4f1c63,0 0.25rem rgba(0, 0, 0, 0.25);
+        text-shadow: 0 0.063rem 0 #271c63;
+        text-align: center;
+        width: 100%;
+        height: 30%;
+        display: grid;
+        left:25%;
+        color: white;
+    }
+    .Center2{
+        text-align: center;
+        font-family: Text1;
+    }
+    .Center3{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 10%;
+    }
+    /*****/
+    .Iniciarsesion{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(10, 194, 10);
+    }
+    .Center{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .Logo1{
+        width: 40%;
+        height: 40%;
+        padding-top: 2%;
+    }
+    .input{
+        outline: none;
+        width: 50%;
+        height: 70%;
+        border: none;
+        -moz-appearance: textfield;
+            appearance: textfield;
+        text-align: center;
+
+    }
+    .is2{
+        background-color: rgb(22, 22, 22);
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        border-bottom: 0.125rem solid green;
+    }
+    span{
+        background: #268543;
+        box-shadow: inset 0 0.25rem #49c35d,inset 0 -0.25rem #1c633c,0 0.25rem rgba(0, 0, 0, 0.25);
+        margin-top: 8.75rem;
+        margin-left: 5.625rem;
+        
+        width: 40%;
+        justify-content: center;
+        display: grid;
+        left:8%
+    }
+    .Left{
+        text-align: left;
+        font-family: Text1;
+    }
+    .Imageness{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .Imageness img{
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+}
